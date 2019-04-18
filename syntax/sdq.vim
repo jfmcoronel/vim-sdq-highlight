@@ -16,7 +16,7 @@ highlight default link sdqQuote Special
 syntax match sdqColor /\v`[^`]*`/
 highlight default link sdqColor Structure
 
-syntax match sdqColorType /\v\s+.(\`)@=/
+syntax match sdqColorType /\v\S(\`)@=/
 highlight default link sdqColorType Comment
 
 syntax match sdqItem /\v^\s*\-\s/
