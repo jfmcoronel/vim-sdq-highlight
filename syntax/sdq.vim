@@ -1,6 +1,9 @@
 syntax match sdqFrontMatter /\v\%.*$/
 highlight default link sdqFrontMatter Comment
 
+syntax match sdqSeparator /\v\s*---$/
+highlight default link sdqSeparator Comment
+
 syntax match sdqTitle /\v\#.*$/
 highlight default link sdqTitle Title
 
