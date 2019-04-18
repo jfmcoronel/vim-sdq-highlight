@@ -19,7 +19,7 @@ highlight default link sdqColor Structure
 syntax match sdqColorType /\v\s+.(\`)@=/
 highlight default link sdqColorType Comment
 
-syntax match sdqItem /\v^\s*\-/
+syntax match sdqItem /\v^\s*\-\s/
 highlight default link sdqItem Label
 
 syntax match sdqEnd /\v\@.*$/
