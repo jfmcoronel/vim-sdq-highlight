@@ -13,7 +13,7 @@ highlight default link sdqSlide ModeMsg
 syntax match sdqSpacing /\v\<\<\d+\>\>/
 highlight default link sdqSpacing ModeMsg
 
-syntax match sdqQuote /\v\>.*$/
+syntax match sdqQuote /\v^\s*\>.*$/
 highlight default link sdqQuote Special
 
 syntax match sdqColor /\v`[^`]*`/
