@@ -10,6 +10,9 @@ highlight default link sdqTitle Title
 syntax match sdqSlide /\v^\s*(\+|\=|\*).*$/
 highlight default link sdqSlide ModeMsg
 
+syntax match sdqSpacing /\v\<\<\d+\>\>/
+highlight default link sdqSpacing ModeMsg
+
 syntax match sdqQuote /\v\>.*$/
 highlight default link sdqQuote Special
 
