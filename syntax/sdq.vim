@@ -7,7 +7,7 @@ highlight default link sdqSeparator Comment
 syntax match sdqTitle /\v^\s*\#.*$/
 highlight default link sdqTitle Title
 
-syntax match sdqSlide /\v^\s*\+.*$/
+syntax match sdqSlide /\v^\s*(\+|\=|\*).*$/
 highlight default link sdqSlide ModeMsg
 
 syntax match sdqQuote /\v\>.*$/
