@@ -27,3 +27,12 @@ highlight default link sdqItem Label
 
 syntax match sdqEnd /\v^\s*\@.*$/
 highlight default link sdqend ModeMsg
+
+syntax match sdqCodeFence /\v^\s*```.*/
+highlight default link sdqCodeFence Title
+
+syntax match sdqIndentBack /\v^\s*\<+$/
+highlight default link sdqIndentBack Special
+
+syntax match sdqLineBreak /\v^\s*\\\\$/
+highlight default link sdqLineBreak Special
